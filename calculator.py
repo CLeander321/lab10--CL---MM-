@@ -30,6 +30,7 @@ def logarithm(a, b):
     return math.log(a, b)
 def exponent(a, b):
     return a ** b
-
+def dumbo(s,b):
+    return "You're a real dumbo my man."
 
 
