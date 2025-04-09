@@ -1,5 +1,5 @@
 class TestCalculator(unittest.TestCase):
-    def tst_add(self):
+    def test_add(self):
         self.assertEqual(add(1, 2), 3)
         self.assertEqual(add(2, 3), 5)
     def test_divide_by_zero(self):
