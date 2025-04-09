@@ -24,6 +24,7 @@ def logarithm(a, b):
     return math.log(a, b)
 def exponent(a, b):
     return a ** b
-
+def trumpet(a,b):
+    return "DOOT DOOT DOOT DOOT"
 
 
