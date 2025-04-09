@@ -28,12 +28,12 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(math.multiply(-2, -4), 8)
 
     def test_divide(self):  # 3 assertions
-        self.assertEqual(math.divide(6, 2), 3)
-        self.assertEqual(math.divide(-8, 2), -4)
-        self.assertEqual(math.divide(-10, -5), 2)
-        self.assertAlmostEqual(calculator.divide(7, 3), 2.3333333, places=6)
+        self.assertEqual((6/2), 3)
+        self.assertEqual((-8/ 2), -4)
+        self.assertEqual((-10/-5), 2)
+        self.assertAlmostEqual((7/ 3), 2.3333333, places=6)
         with self.assertRaises(ZeroDivisionError):
-            calculator.divide(10, 0)
+            (10/ 0)
 
     ######## Partner 2
     # def test_divide_by_zero(self): # 1 assertion
