@@ -36,7 +36,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide_by_zero(self): # 1 assertion
      #    call division function inside, example:
         with self.assertRaises(ValueError):
-              divide(5, 0)
+              div(5, 0)
     #     fill in code
 
     def test_logarithm(self): # 3 assertions
