@@ -36,7 +36,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide_by_zero(self): # 1 assertion
      #    call division function inside, example:
         with self.assertRaises(ValueError):
-              div(0, 5)
+              divide(5, 0)
     #     fill in code
 
     def test_logarithm(self): # 3 assertions
@@ -60,9 +60,9 @@ class TestCalculator(unittest.TestCase):
             math.log(0, 5)
 
     def test_hypotenuse(self):  # 3 assertions
-        self.assertAlmostEqual(math.sqrt(3**2 + 4**2), 5.0)
-        self.assertAlmostEqual(math.sqrt(5**2 + 12**2), 13.0)
-        self.assertAlmostEqual(math.sqrt(4**2, 3**2), 5.0)
+        self.assertEqual(hypotenuse(3, 4), 5.0)
+        self.assertAlmostEqual(hypotenuse(5, 12), 13.0)
+        self.assertEqual(hypotenuse(4, 3), 5.0)
 
     def test_sqrt(self):  # 3 assertions
 
