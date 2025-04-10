@@ -1,3 +1,6 @@
+#https://github.com/CLeander321/lab10--CL---MM-.git
+#Person1 Chloe leander
+#persone2 Maliha Mokamlel
 import math
 """
 calculator.py
